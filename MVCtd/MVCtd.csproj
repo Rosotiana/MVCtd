@@ -167,11 +167,16 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Tache\Todo.cshtml" />
+    <Content Include="Views\Utilisateur\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+<<<<<<< HEAD
+=======
     <Folder Include="Views\Tache\" />
     <Folder Include="Views\Utilisateur\" />
+>>>>>>> 4757dc5321bdd6c337018381ae0e952244ad29cc
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
