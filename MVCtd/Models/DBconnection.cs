@@ -7,5 +7,7 @@ namespace MVCtd.Models
 {
     public class DBconnection
     {
+        public static NpgsqlConnection connectionString = new NpgsqlConnection
+             (ConfigurationManager.ConnectionStrings["DBConnexion"].ConnectionString);
     }
 }
